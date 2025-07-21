@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Ticket Support System</title>
+<style>
+        body {
+            background-image: url("bg4.jpg");
+            background-size: cover;
+            background-position: center;
+            margin: 100px;
+            padding: 40px;
+        }
+        .container {
+            text-align: center;
+            padding-top: 2%;
+        }
+        .registerbox {
+            padding: 30px;
+            border: 2px solid white;
+            border-radius: 20px;
+            background-color: rgba(0, 0, 0, 0.4);
+            margin-left:700px;
+            
+            
+            
+        }
+        .button1 {
+            background-color: white;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+         input[type="submit"] {
+            background-color: white;
+            color: black;
+            padding: 10px 60px; 
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+	<form action="Registration.jsp" method="post">
+	<div class="container">
+		<div class="registerbox">
+			<h2 style="color: white;font-size:35px">User Registration</h2>
+                        User Id:         <input type="text" name="userId" required><br><br>
+                        Enter Username:  <input type="text" name="username"  required><br><br>
+			Email-ID:        <input type="text" name="email"  required><br><br>
+                        Phone Number:    <input type="text"  name="phoneno"  onkeypress="return event.charCode>= 48 && event.charCode<= 57" required><br><br>
+		        Password:        <input type="password" name="pass1"  required><br><br>
+                        Confirm Password:<input type="password" name="pass2" required><br><br>
+			<input type="submit" value="Submit" >
+		</div>
+		</div>
+	</form>
+</body>
+</html>

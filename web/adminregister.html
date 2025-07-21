@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Ticket Support System</title>
+<style>
+         body {
+            background-image: url("bg6.jpg");
+            background-size: cover;
+            background-position: center;
+            margin: 100px;
+            padding: 40px;
+        }
+        .container {
+            text-align: center;
+            padding-top: 5%;
+             padding: 50px;
+            border: 2px solid white;
+            border-radius: 20px;
+            background-color: rgba(0, 0, 0, 0.4);
+            margin-right:700px;
+        }    
+       
+       
+    
+            
+            
+        
+        .button1 {
+            background-color: white;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+         input[type="submit"] {
+            background-color: white;
+            color: black;
+            padding: 10px 60px; 
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+	<form action="adminregistration.jsp" method="post">
+	<div class="container">
+		
+			<h2 style="color: white;font-size:35px">Admin Registration</h2>
+                        Admin Id:         <input type="text" name="adminId" required><br><br>
+                        Enter Admin Name:  <input type="text" name="adminname"  required><br><br>
+                        Enter Your Age: <input type="number" name="age" required><br><br>
+			Email-ID:        <input type="text" name="email"  required><br><br>
+                        Phone Number:    <input type="text"  name="phoneno"  onkeypress="return event.charCode>= 48 && event.charCode<= 57" required><br><br>
+		        Password:        <input type="password" name="pass1" required><br><br>
+                        Confirm Password:<input type="password" name="pass2" required><br><br>
+			<input type="submit" value="Submit" >
+		
+		</div>
+	</form>
+</body>
+</html>

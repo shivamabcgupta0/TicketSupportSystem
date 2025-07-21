@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+ <title>File Upload</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head>
+ <style>
+      body {
+            background-image: url("bg5.jpg");
+            background-size: cover;
+            background-position: center;
+            margin: 100px;
+            padding: 40px;
+          }
+          .container {
+            text-align: center;
+            padding-top: 5%;
+             padding: 50px;
+            border: 2px solid white;
+            border-radius: 20px;
+            background-color: rgba(0, 0, 0, 0.1);
+            margin-right:50px;
+           
+        }    
+ </style>
+ <br><br><br><br><br><br><br><br>
+ <div class="container">
+ <h2><center>Upload A File</center></h2>
+ <form method="post" action="FileUploadServlet" enctype="multipart/form-data">
+ <center>
+ Select File to Upload: <input type="file" name="file" id="file"><br><br>
+ <input type="submit" value="Upload File" name="upload" id="upload">
+ </center>
+     
+ </form>
+ </div>
+ </body>
+</html>
