@@ -23,7 +23,7 @@
 
   
     String query1 = "SELECT userid from user_detail WHERE userid=?";
-    String query2 = "INSERT INTO USER_DETAIL(userId,username,email,phoneno,password) VALUES(?,?,?,?,?)";
+    String query2 = "INSERT INTO USERS_DETAIL(userId,username,email,phoneno,password) VALUES(?,?,?,?,?)";
 
     try {
        
