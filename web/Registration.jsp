@@ -1,7 +1,7 @@
 <%-- 
     Document   : Registration
     Created on : 22 Feb, 2024, 10:30:30 PM
-    Author     : Tanishqua
+    Author     : Shivam
 --%>
 <%@ page import="java.sql.*" %>
 <%@ page import="javax.sql.*" %>
